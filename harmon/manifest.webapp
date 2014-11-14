@@ -3,7 +3,6 @@
   "description": "A Hello World app",
   "launch_path": "/index.html",
   "icons": {
-  
     "48": "/icons/baseball48x48.png"
   },
   "type": "privileged",
