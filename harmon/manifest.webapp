@@ -1,19 +1,29 @@
 {
-  "name": "Killebrew",
-  "description": "I didn't have evil intentions, but I guess I did have power.",
+  "version": "1",
+  "name": "Killebrew Test App",
   "launch_path": "/index.html",
-   "icons": {
-    "128": "/img/app_icon_128.png",
-    "60": "/img/app_icon_60.png"
+  "description": "Killebrew app with example use cases to get started",
+  "icons": {
+    "60": "/images/app_icon_60.png",
+    "128": "/images/app_icon_128.png"
   },
-  "type": "privileged",
   "developer": {
-    "name": "@osmond, @figital",
-    "url": "http://jonosmond.com, http://figital.com"
+    "name": "@osmond",
+    "url": "http://jonosmond.com"
   },
+  "installs_allowed_from": [
+    "*"
+  ],
   "default_locale": "en",
-  "permissions": {}
+  "permissions": {
+    "desktop-notification": {
+      "description": "To show notifications"
+    },
+    "geolocation": {
+      "description": "Marking out user location"
+    },
+    "alarms": {
+      "description": "Scheduling alarms"
+    }
+  }
 }
-
-
-
